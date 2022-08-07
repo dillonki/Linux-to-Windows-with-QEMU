@@ -34,7 +34,7 @@ function goto
 : ngrok
 clear
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
-read -p "Paste Ngrok Authtoken: " CRP
+read -p "25MSsppw9e2c7yNgTHnxagHcTnF_7eS4ndr9MsG2TKYUAFnxE" CRP
 ./ngrok authtoken $CRP 
 echo "======================="
 echo "choose ngrok region (for better connection)."
